@@ -12,10 +12,13 @@ const Home = () => {
         <div>
             <Nav></Nav>
             <Header />
-            <AllGenres />
+
             <AllSongss />
+
             <AboutUs />
+
             <PricingHome />
+            <AllGenres />
             <Footer />
         </div>
     );
