@@ -4,6 +4,7 @@ import Gen from './Gen';
 
 const AllGenres = () => {
 
+
     const [genres, setGenres] = useState([])
 
     useEffect(() => {

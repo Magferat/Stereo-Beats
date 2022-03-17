@@ -2,7 +2,7 @@ import React from 'react';
 
 const Gen = (props) => {
 
-    const { img, name, total } = props.gen;
+    const { img, name } = props.gen;
     return (
         <>
             <div className="container mx-auto" style={{ width: "160px" }}>

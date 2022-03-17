@@ -1,6 +1,7 @@
 import React from 'react';
 import AboutUs from './AboutUs';
 import AllSongss from './AllSongs/AllSongss';
+import AllTypes from './ALLTypes/AllTypes';
 import Footer from './Footer';
 import AllGenres from './Genres/AllGenres';
 import Header from './Header';
@@ -12,11 +13,9 @@ const Home = () => {
         <div>
             <Nav></Nav>
             <Header />
-
-            <AllSongss />
-
             <AboutUs />
-
+            {/* <AllTypes /> */}
+            <AllSongss />
             <PricingHome />
             <AllGenres />
             <Footer />
