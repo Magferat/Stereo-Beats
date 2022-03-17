@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Folk & Pop",
+        "img": "https://i.ibb.co/cyBSQ5h/pop.jpg",
+        "total": "12,739"
+    },
+    {
+        "id": 2,
+        "name": "Rock Metal",
+        "img": "https://i.ibb.co/09ZyGVK/parker-coffman-5xq-AB1x-UGBk-unsplash.jpg",
+        "total": "13,496"
+    },
+    {
+        "id": 3,
+        "name": "Hip-Hop",
+        "img": "https://i.ibb.co/W0H9Rk0/hiphop.jpg",
+        "total": "17,739"
+    },
+    {
+        "id": 4,
+        "name": "Dance & Electronica",
+        "img": "https://img.freepik.com/free-photo/woman-listening-music-dancing_23-2148593277.jpg?w=740&t=st=1647507567~exp=1647508167~hmac=d9415d766ce48f08948dd72eed86188219da10583d4b54c08f509b86a95f7d08",
+        "total": "9,684"
+    },
+    {
+        "id": 5,
+        "name": "Classical",
+        "img": "https://i.ibb.co/4t534F1/classical.jpg",
+        "total": "7,284"
+    },
+    {
+        "id": 6,
+        "name": "Lalon Specical",
+        "img": "https://i.ibb.co/ZTJjVjJ/Lalon.jpg",
+        "total": "10,637"
+    }
+]

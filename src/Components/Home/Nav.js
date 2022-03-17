@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
-import icon_m from '../../sterio/icon.png'
+import icon_m from '../../str/icon.png'
 const Nav = () => {
     // const { user, logout } = useAuth({});
 

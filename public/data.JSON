@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Creative Skills",
+        "img": "--",
+        "song": ""
+    }
+    {
+        "id": 2,
+        "name": "Deep Focus",
+        "img": "--",
+        "song": ""
+    }
+    {
+        "id": 3,
+        "name": "Workout",
+        "img": "--",
+        "song": ""
+    }
+    {
+        "id": 4,
+        "name": "Sleep",
+        "img": "--",
+        "song": ""
+    }
+    {
+        "id": 5,
+        "name": "Summer",
+        "img": "--",
+        "song": ""
+    }
+    {
+        "id": 6,
+        "name": "Indie Gaming",
+        "img": "--",
+        "song": ""
+    }
+]
