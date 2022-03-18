@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div className='footer container-fluid'>
             <div className="container text-white mt-5">
-                <p className=' text-price text-end fw-bold fst-italic pt-5'>© 2022 <span className='text-info'>Stereo Beats </span>All Rights Reserved</p>
+                <p className=' f-text text-end fw-bold fst-italic pt-5'>© 2022 <span className='text-info'>Stereo Beats </span>All Rights Reserved</p>
             </div>
             <div className=''> <hr className='text-white' /> </div>
             <div className="container d-flex">
@@ -39,9 +39,7 @@ const Footer = () => {
                         <li><i className="fas fa-check" />TickTok</li>
                     </ul>
                 </div>
-                <div className="container mt-auto">
-                    <img src={icon_f} alt="" className='img-fluid' style={{ width: '90px' }} />
-                </div>
+
             </div>
 
 

@@ -15,7 +15,7 @@ const AllGenres = () => {
 
     return (
         <div id="genres" className=" container my-5 p-3" >
-            <div className="container w-75 "> <h4 className="text-center text-info mt-3 pb-3">Our Most Popular Genres</h4> </div>
+            <div className="container w-75 "> <h1 className="text-center text-info mt-3 pb-3">Our Most Popular Genres</h1> </div>
 
             <div className=" mx-auto row row-cols-lg-5 row-cols-sm-2 row-cols-md-3">
                 {

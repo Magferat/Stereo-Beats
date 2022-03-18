@@ -11,8 +11,8 @@ const AllTypes = () => {
     }, [])
 
     return (
-
-        <div className="container mx-auto row row-cols-lg-3 row-cols-sm-2 row-cols-md-2">
+        // <div className="container">
+        <div className="ms-5 row row-cols-lg-3 row-cols-sm-2 row-cols-md-3">
             {
                 types.map(type => <ShowTypes
                     key={type.id}
@@ -20,6 +20,7 @@ const AllTypes = () => {
                 )
             }
         </div>
+        // </div>
 
     );
 };

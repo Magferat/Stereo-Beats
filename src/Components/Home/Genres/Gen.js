@@ -5,8 +5,8 @@ const Gen = (props) => {
     const { img, name } = props.gen;
     return (
         <>
-            <div className="container mx-auto" style={{ width: "160px" }}>
-                <div className="card p-0 border-0" style={{ width: "150px" }}>
+            <div className="container mx-auto" style={{ width: "200px" }}>
+                <div className="card p-0 border-0" style={{ width: "190px" }}>
                     <img src={img} className="card-img-top img-fluid " alt="..." />
 
                 </div>
