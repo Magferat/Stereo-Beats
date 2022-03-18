@@ -14,7 +14,7 @@
 }
 .link2 {
   text-decoration: none;
-  /* font-size: smaller; */
+  /* font-size: 20px; */
 }
 :hover .link {
   color: black
@@ -41,7 +41,7 @@
   /* background-color: rgb(63, 61, 61); */
 }
 .text-about {
-  font-size: 23px;
+  font-size: 20px;
 }
 .about-bg {
   background-image: url(./str/about.jpg);
@@ -76,7 +76,7 @@
   font-size: 20px;
 }
 .f-text {
-  font-size: 25px;
+  font-size: 20px;
 }
 .type {
   font-size: 20px;
@@ -140,7 +140,7 @@
   text-align: start;
 }
 .footer li{
-  font-size: 35px;
+  font-size: 20px;
   font-weight: 600;
   color: white;
 }

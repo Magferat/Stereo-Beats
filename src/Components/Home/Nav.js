@@ -10,13 +10,13 @@ const Nav = () => {
     return (
 
         <div>
-            <nav className="navbar navbar-expand-lg nav-bg fixed-top  py-2 nav">
+            <nav className="navbar navbar-expand-lg nav-bg fixed-top nav p-0">
                 <div className="container-fluid">
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"><i className="fas fa-sliders-h"></i></span>
                     </button>
 
-                    <Link className="navbar-brand text-white fw-bold fs-1 ps-2 py-2" to="/home">
+                    <Link className="navbar-brand text-white fw-bold fs-1 ps-2" to="/home">
                         <img src={icon_m} className="icon_m img-fluid" alt="..." />
                         Stereo Beats </Link>
 
@@ -25,13 +25,13 @@ const Nav = () => {
                             <li className="nav-item">
                                 <HashLink className="nav-link link active me-3" aria-current="page" to="/home">Home</HashLink>
                             </li>
-                            <li className="nav-item list m-1">
+                            <li className="nav-item list my-2">
                                 <HashLink to="/home#price" className="link-style link me-3">
                                     Pricing
                                 </HashLink>
                             </li >
                             {
-                                !(user?.email) && <li className="nav-item  list m-1">
+                                !(user?.email) && <li className="nav-item  list my-2">
                                     <Link to='/login' className='link-style link me-3'>Login</Link>
                                 </li>
                             }
