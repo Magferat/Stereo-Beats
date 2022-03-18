@@ -6,8 +6,8 @@ const Gen = (props) => {
     return (
         <>
             <div className="container mx-auto" style={{ width: "160px" }}>
-                <div class="card p-0 border-0" style={{ width: "150px" }}>
-                    <img src={img} class="card-img-top img-fluid " alt="..." />
+                <div className="card p-0 border-0" style={{ width: "150px" }}>
+                    <img src={img} className="card-img-top img-fluid " alt="..." />
 
                 </div>
                 <p className='text-white text-price text-start'>{name}</p></div>

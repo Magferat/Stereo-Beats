@@ -8,20 +8,28 @@ import {
 import Home from './Components/Home/Home';
 import LogIn from './Components/LogSignIN/LogIn';
 import SignIn from './Components/LogSignIN/SignIn';
+import AuthProvider from './context/AuthProvider'
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path='/login'><LogIn /></Route>
-          <Route path='/signin'><SignIn /></Route>
+      <AuthProvider>
+        <Router>
+          <Switch>
 
-        </Switch>
+            <Route path="/home">
+              <Home />
+            </Route>
+            <Route path='/login'><LogIn /></Route>
+            <Route path='/signin'><SignIn /></Route>
+            <Route exact path="/">
+              <Home />
+            </Route>
 
-      </Router>
+          </Switch>
+
+        </Router>
+      </AuthProvider>
+
     </div>
   );
 }

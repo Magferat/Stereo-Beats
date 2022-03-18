@@ -2,8 +2,8 @@ import React from 'react';
 import AllTypes from '../ALLTypes/AllTypes';
 const AllSongss = () => {
     return (<>
-        <div className="container mt-5 d-flex">
-            <div className="container"><AllTypes /></div>
+        <div className="container-fluid mt-5 d-lg-flex">
+            <AllTypes />
             <div className="container">
 
                 <p className='display-4 text-white text-start p-5 mt-1'>Get full access to over 35,000 tracks & 90,000 sound effects</p>

@@ -11,32 +11,32 @@ const Footer = () => {
                 <div className="container mt-5">
                     <ul>
 
-                        <li><i class="fas fa-check" />Music</li>
-                        <li><i class="fas fa-check" />Sound Effects</li>
-                        <li><i class="fas fa-check" />For Artists</li>
-                        <li><i class="fas fa-check" />In-Store Music</li>
-                        <li><i class="fas fa-check" />Blog</li>
-                        <li><i class="fas fa-check" />Help</li>
+                        <li><i className="fas fa-check" />Music</li>
+                        <li><i className="fas fa-check" />Sound Effects</li>
+                        <li><i className="fas fa-check" />For Artists</li>
+                        <li><i className="fas fa-check" />In-Store Music</li>
+                        <li><i className="fas fa-check" />Blog</li>
+                        <li><i className="fas fa-check" />Help</li>
                     </ul>
                 </div>
                 <div className="container mt-5">
                     <ul>
-                        <li><i class="fas fa-check" />Pricing</li>
-                        <li><i class="fas fa-check" />Enterprice</li>
-                        <li><i class="fas fa-check" />Press</li>
-                        <li><i class="fas fa-check" />Careers</li>
-                        <li><i class="fas fa-check" />Community</li>
-                        <li><i class="fas fa-check" />Spotify</li>
+                        <li><i className="fas fa-check" />Pricing</li>
+                        <li><i className="fas fa-check" />Enterprice</li>
+                        <li><i className="fas fa-check" />Press</li>
+                        <li><i className="fas fa-check" />Careers</li>
+                        <li><i className="fas fa-check" />Community</li>
+                        <li><i className="fas fa-check" />Spotify</li>
                     </ul>
                 </div>
                 <div className="container mt-5">
                     <ul>
-                        <li><i class="fas fa-check" />Podcasts</li>
-                        <li><i class="fas fa-check" />YouTube</li>
-                        <li><i class="fas fa-check" />Instagram</li>
-                        <li><i class="fas fa-check" />Facebook</li>
-                        <li><i class="fas fa-check" />Twitter</li>
-                        <li><i class="fas fa-check" />TickTok</li>
+                        <li><i className="fas fa-check" />Podcasts</li>
+                        <li><i className="fas fa-check" />YouTube</li>
+                        <li><i className="fas fa-check" />Instagram</li>
+                        <li><i className="fas fa-check" />Facebook</li>
+                        <li><i className="fas fa-check" />Twitter</li>
+                        <li><i className="fas fa-check" />TickTok</li>
                     </ul>
                 </div>
                 <div className="container mt-auto">

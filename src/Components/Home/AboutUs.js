@@ -11,7 +11,7 @@ const AboutUs = () => {
                     <p className='text-start text-secondary text-about ps-3'>
                         Explore our music and try it out for 30 days – free of charge, no strings attached. During your free trial you can download and publish as many tracks you like in both videos or podcasts.
                     </p>
-                    <Link className="fw-bold link2" to="/explore"> <h6> Start Free Trial <i class="fas fa-arrow-right"></i></h6></Link>
+                    <Link className="fw-bold link2" to="/explore"> <h6> Start Free Trial <i className="fas fa-arrow-right"></i></h6></Link>
 
 
                 </div>
@@ -20,7 +20,7 @@ const AboutUs = () => {
                     <p className='text-start text-secondary text-about ps-3'>
                         A subscription is most beneficial if you publish videos regularly. All subscriptions give you full access to 35,000 tracks and 90,000 sound effects. Unlimited downloads and use.
                     </p>
-                    <Link className="fw-bold link2" to="/explore">Pricing <i class="fas fa-arrow-right"></i></Link>
+                    <Link className="fw-bold link2" to="/explore">Pricing <i className="fas fa-arrow-right"></i></Link>
 
                 </div>
                 <div className='ms-lg-5'>
