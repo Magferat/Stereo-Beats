@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import icon_m from '../../str/icon.png'
 const Nav = () => {
-    // const { user, logout } = useAuth({});
+
 
     return (
         <div>
@@ -22,45 +22,42 @@ const Nav = () => {
                             <li className="nav-item ">
                                 <HashLink className="nav-link link active" aria-current="page" to="/home">Home</HashLink>
                             </li>
-                            {/* <li className="nav-item">
-                                <HashLink className="nav-link link active" aria-current="page" to="/home#about">About Us </HashLink>
+                            <li className="nav-item list m-2">
+                                <HashLink to="/home#price" className="link-style">Pricing</HashLink>
+                            </li >
+                            <li className="nav-item list m-2">
+                                <Link to='/login' className='link-style'>Login</Link>
                             </li>
-                            <li className="nav-item">
-                                <HashLink className="nav-link link active" aria-current="page" to="/home#reviews">Reviews</HashLink>
+                            <li className="nav-item list m-2">
+                                <Link to='/signin' className='link-style'>Signin</Link>
                             </li>
-                            <li className="nav-item">
-                                <HashLink className="nav-link link  active" aria-current="page" to="/dashboard">Dashboard</HashLink>
-                            </li>
-                            <li className="nav-item">
-                                <HashLink className="nav-link link active" aria-current="page" to="/explore">Explore</HashLink>
-                            </li>
-                            {
-                                user.email &&
-                                <li className="nav-item  ">
-                                    <div className="dropdown">
-                                        <button className="btn fw-bold dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"> Hello,{user.displayName} !
-                                        </button>
-                                        <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            {/* {
+                                !(user?.email) && <li className="nav-item list m-2 ">
+                                    <Link to='/login' className="link-style">Login</Link>
+                                </li>
+                            }
 
-                                            <li><div
-                                                onClick={logout}
-                                                className="btn btn-light">  Logout</div> </li>
-                                        </ul> </div></li>
+                            {
+                                !(user?.email) && <li className="nav-item list m-2 ">
+                                    <Link to='/register' className="link-style">Register</Link>
+                                </li>
                             }
                             {
-                                !user.email && <li className="nav-item">
-                                    <HashLink className="nav-link link active" aria-current="page" to="/login">Login</HashLink>
+                                user?.email &&
+                                <li className="list m-2 text-warning fw-bold">
+                                    Hello, <br />
+                                    {user?.displayName} !
 
                                 </li>
-
                             }
                             {
-                                !user.email && <li className="nav-item">
-                                    <HashLink className="nav-link link active" aria-current="page" to="/register">Register</HashLink>
+                                user?.email &&
+                                <button className="btn nav-bg text-white fw-bold list m-2"
+                                    onClick={logOut}> log out
+                                </button>
 
-                                </li> */}
 
-                            {/* } */}
+                            } */}
                         </ul>
 
                     </div>

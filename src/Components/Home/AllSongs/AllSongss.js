@@ -1,7 +1,5 @@
 import React from 'react';
-import blue from '../../../str/blue_bird_naruto.mp3'
 import AllTypes from '../ALLTypes/AllTypes';
-import ShowTypes from '../ALLTypes/ShowTypes';
 const AllSongss = () => {
     return (<>
         <div className="container mt-5 d-flex">

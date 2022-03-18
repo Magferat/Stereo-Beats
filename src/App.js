@@ -6,6 +6,8 @@ import {
 
 } from 'react-router-dom';
 import Home from './Components/Home/Home';
+import LogIn from './Components/LogSignIN/LogIn';
+import SignIn from './Components/LogSignIN/SignIn';
 function App() {
   return (
     <div className="App">
@@ -14,6 +16,9 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
+          <Route path='/login'><LogIn /></Route>
+          <Route path='/signin'><SignIn /></Route>
+
         </Switch>
 
       </Router>

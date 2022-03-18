@@ -2,7 +2,7 @@ import React from 'react';
 import deal from "../../../str/deal.png"
 const PricingHome = () => {
     return (
-        <div>
+        <div id='price'>
             <h2 className='text-info mt-5 pt-2'>
                 The best license in the world
             </h2>
@@ -41,7 +41,7 @@ const PricingHome = () => {
                     </div>
                     <div class="card  col-sm col-md-12 my-cards my-card-sp mb-5 mt-5 me-2 shadow h-100" style={{ width: '258px' }}>
                         <div class="card-body pt-1">
-                            <button type="button" class=" btn-danger px-3 py-1 shadow-lg border border-danger text-price mb-1 fw-bold">BEST DEAL</button>
+                            <button type="button" class=" btn-warning px-3 py-1 shadow-lg border border-warning text-price mb-1 fw-bold">BEST DEAL</button>
                             <h6 class=" mb-1 fw-bold">Unlimited</h6>
                             <p class="text-price text-white">Covers everything from personal to commercial projects</p>
                             <p class="mt-3 mb-0">

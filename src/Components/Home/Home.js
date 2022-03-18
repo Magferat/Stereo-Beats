@@ -11,10 +11,9 @@ import PricingHome from './Pricing/PricingHome';
 const Home = () => {
     return (
         <div>
-            <Nav></Nav>
+            <Nav />
             <Header />
             <AboutUs />
-            {/* <AllTypes /> */}
             <AllSongss />
             <PricingHome />
             <AllGenres />
