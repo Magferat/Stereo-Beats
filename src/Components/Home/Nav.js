@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import useAuth from '../../hooks/useAuth';
-import icon_m from '../../str/icon.png'
+import icon_m from '../../str/lolo.png'
 const Nav = () => {
     const { user, logOut } = useAuth();
 

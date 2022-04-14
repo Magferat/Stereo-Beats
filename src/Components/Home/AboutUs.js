@@ -8,7 +8,7 @@ const AboutUs = () => {
 
             <div className="container mt-5 px-lg-4 me-lg-3">
                 <div className='ms-lg-5 mt-lg-5'>
-                    <h4 className='text-start text-white display-6 fw-bold mb-4'>Try for free</h4>
+                    <h4 className='text-start text-white display-6 fw-bold mb-4'>Start free trial</h4>
                     <p className='text-start text-secondary text-about ps-5 '>
                         Explore our music and try it out for 30 days – free of charge, no strings attached. During your free trial you can download and publish as many tracks you like in both videos or podcasts.
                     </p>
@@ -17,9 +17,9 @@ const AboutUs = () => {
 
                 </div>
                 <div className='ms-lg-5'>
-                    <h4 className='text-start text-white display-6 fw-bold mb-4'>Pick a subscription</h4>
+                    <h4 className='text-start text-white display-6 fw-bold mb-4'>Choose your plan</h4>
                     <p className='text-start text-secondary text-about ps-5 '>
-                        A subscription is most beneficial if you publish videos regularly. All subscriptions give you full access to 35,000 tracks and 90,000 sound effects. Unlimited downloads and use.
+                        A subscription is most beneficial if you publish videos regularly. All subscriptions give you full access to 20,000 tracks and 60,000 sound effects. Unlimited downloads and use.
                     </p>
                     <HashLink className="fw-bold link2" to="/home#price"> <h4> Pricing <i className="fas fa-arrow-right"></i></h4></HashLink>
 
